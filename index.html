@@ -4,9 +4,24 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<style>
+		body,figure {
+			margin: 0;
+			padding: 0;
+		}
+		.content{
+		    position: absolute;
+		    left: 50%;
+		    top: 50%;
+		    transform: translate(-50%, -50%);
+		    -webkit-transform: translate(-50%, -50%);
+		}
 	</style>
 </head>
 <body>
-<img src="imagen1.jpg" alt="">
+	<div class="content">
+		<figure>
+			<img src="imagen1.jpg" alt="" />
+		</figure>
+	</div>
 </body>
 </html>
